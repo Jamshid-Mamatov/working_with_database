@@ -1,14 +1,16 @@
 from django.db import models
 from django.db.models.base import Model
-
-class Language(models.Model):
-    name=models.CharField(max_length=10)
-    
+from django.utils import timezone
+class Musician(models.Model):
+    first_name=models.CharField(max_length=20)
+    last_name=models.CharField(max_length=20)
+    instrument=models.CharField(max_length=20)
     def __str__(self) -> str:
-        return self.name 
+        return self.first_name
 
-class Framework(models.Model):
-    name=models.CharField(max_length=10)
-    language=models.ForeignKey(Language,on_delete=models.CASCADE)
+class Album(models.Model):
+    artist=models.ForeignKey(Musician,on_delete=models.CASCADE)
+    name=models.CharField(max_length=20)
+    release_data=models.DateField(default=timezone.now)
     def __str__(self) -> str:
-        return self.name 
+        return self.name
