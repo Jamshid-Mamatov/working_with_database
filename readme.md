@@ -17,3 +17,8 @@
 ### command for album table
 - ![album](photos/command_album.jpg)
 
+### musician table
+- ![musician](photos/table_musician.jpg)
+### album table
+- ![album](photos/table_musician.jpg)
+
