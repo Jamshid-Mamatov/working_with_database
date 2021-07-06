@@ -22,3 +22,5 @@
 ### album table
 - ![album](photos/table_musician.jpg)
 
+### choices
+- ![choices](photos/choices.jpg)
