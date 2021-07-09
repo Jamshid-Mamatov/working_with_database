@@ -24,3 +24,7 @@
 
 ### choices
 - ![choices](photos/choices.jpg)
+
+### create method
+**create method for creating an object and saving it all one step**
+- ![create](photos/create_method.jpg)
