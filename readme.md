@@ -28,3 +28,8 @@
 ### create method
 **create method for creating an object and saving it all one step**
 - ![create](photos/create_method.jpg)
+### deleting object
+
+**delete() method delete teble's object and objects**
+- ![delete](photos/before.jpg)
+- ![delete](photos/after.jpg)
